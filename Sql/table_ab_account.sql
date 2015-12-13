@@ -1,0 +1,5 @@
+CREATE TABLE ab_account (
+	id INT PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	amount DECIMAL(11,2) NOT NULL
+) ENGINE=MYISAM CHARSET gbk COLLATE gbk_chinese_ci;
